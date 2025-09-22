@@ -1,0 +1,6 @@
+ar = int(input("Az alkatresz jelenlegi ara: "))
+arem = float(input("Aremeles(szazalekban)"))
+
+ujar = ar+(ar*(arem/100))
+
+print("Az alkatresz uj ara: ",ujar)
